@@ -1,0 +1,150 @@
+digraph {
+	0 [label="
+id: 0
+splitValue: -
+nextSplitAttribute: bmi
+mse: 1942510.569579286
+samples: 309"]
+	1 [label="
+id: 1
+splitValue: 0
+nextSplitAttribute: s5
+mse: 822122.0195121944
+samples: 205"]
+	0 -> 1
+	2 [label="
+id: 2
+splitValue: 0
+nextSplitAttribute: s3
+mse: 376922.1357142859
+samples: 140"]
+	1 -> 2
+	3 [label="
+id: 3
+splitValue: 0
+nextSplitAttribute: s1
+mse: 221027.984375
+samples: 64"]
+	2 -> 3
+	4 [label="
+id: 4
+splitValue: 0
+nextSplitAttribute: sex
+mse: 194027.92982456132
+samples: 57"]
+	3 -> 4
+	5 [label="
+id: 5
+splitValue: 0
+samples: 26
+avgValue: 128.8846153846154"]
+	4 -> 5
+	6 [label="
+id: 6
+splitValue: 1
+samples: 31
+avgValue: 102.80645161290323"]
+	4 -> 6
+	7 [label="
+id: 7
+splitValue: 1
+samples: 7
+avgValue: 158.42857142857142"]
+	3 -> 7
+	8 [label="
+id: 8
+splitValue: 1
+nextSplitAttribute: sex
+mse: 120992.63157894737
+samples: 76"]
+	2 -> 8
+	9 [label="
+id: 9
+splitValue: 0
+nextSplitAttribute: bp
+mse: 92117.98214285712
+samples: 56"]
+	8 -> 9
+	10 [label="
+id: 10
+splitValue: 0
+nextSplitAttribute: s6
+mse: 67120.62745098039
+samples: 51"]
+	9 -> 10
+	11 [label="
+id: 11
+splitValue: 0
+samples: 38
+avgValue: 84.76315789473684"]
+	10 -> 11
+	12 [label="
+id: 12
+splitValue: 1
+samples: 13
+avgValue: 103.15384615384616"]
+	10 -> 12
+	13 [label="
+id: 13
+splitValue: 1
+samples: 5
+avgValue: 120.6"]
+	9 -> 13
+	14 [label="
+id: 14
+splitValue: 1
+samples: 20
+avgValue: 75.35"]
+	8 -> 14
+	15 [label="
+id: 15
+splitValue: 1
+nextSplitAttribute: s4
+mse: 285239.84615384624
+samples: 65"]
+	1 -> 15
+	16 [label="
+id: 16
+splitValue: 0
+samples: 46
+avgValue: 150.5"]
+	15 -> 16
+	17 [label="
+id: 17
+splitValue: 1
+samples: 19
+avgValue: 190.89473684210526"]
+	15 -> 17
+	18 [label="
+id: 18
+splitValue: 1
+nextSplitAttribute: s5
+mse: 542301.5384615386
+samples: 104"]
+	0 -> 18
+	19 [label="
+id: 19
+splitValue: 0
+samples: 34
+avgValue: 172.58823529411765"]
+	18 -> 19
+	20 [label="
+id: 20
+splitValue: 1
+nextSplitAttribute: bp
+mse: 264762.80000000005
+samples: 70"]
+	18 -> 20
+	21 [label="
+id: 21
+splitValue: 0
+samples: 23
+avgValue: 210.3913043478261"]
+	20 -> 21
+	22 [label="
+id: 22
+splitValue: 1
+samples: 47
+avgValue: 243.17021276595744"]
+	20 -> 22
+}

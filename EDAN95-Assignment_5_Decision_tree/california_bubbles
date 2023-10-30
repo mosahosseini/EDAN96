@@ -1,0 +1,1053 @@
+digraph {
+	0 [label="
+id: 0
+splitValue: -
+nextSplitAttribute: MedInc
+mse: 19225.25265468492
+samples: 14447"]
+	1 [label="
+id: 1
+splitValue: 0
+nextSplitAttribute: Latitude
+mse: 8489.191556753363
+samples: 10652"]
+	0 -> 1
+	2 [label="
+id: 2
+splitValue: 0
+nextSplitAttribute: HouseAge
+mse: 4392.467710389851
+samples: 5985"]
+	1 -> 2
+	3 [label="
+id: 3
+splitValue: 0
+nextSplitAttribute: Longitude
+mse: 1764.087949925224
+samples: 2609"]
+	2 -> 3
+	4 [label="
+id: 4
+splitValue: 0
+nextSplitAttribute: AveRooms
+mse: 68.49654856803305
+samples: 121"]
+	3 -> 4
+	5 [label="
+id: 5
+splitValue: 0
+nextSplitAttribute: AveBedrms
+mse: 68.49654856803305
+samples: 121"]
+	4 -> 5
+	6 [label="
+id: 6
+splitValue: 0
+nextSplitAttribute: Population
+mse: 68.49654856803305
+samples: 121"]
+	5 -> 6
+	7 [label="
+id: 7
+splitValue: 0
+nextSplitAttribute: AveOccup
+mse: 68.49654856803305
+samples: 121"]
+	6 -> 7
+	8 [label="
+id: 8
+splitValue: 0
+mse: 68.49654856803305
+samples: 121
+avgValue: 1.9120992561983472"]
+	7 -> 8
+	9 [label="
+id: 9
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	7 -> 9
+	10 [label="
+id: 10
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	6 -> 10
+	11 [label="
+id: 11
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	5 -> 11
+	12 [label="
+id: 12
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	4 -> 12
+	13 [label="
+id: 13
+splitValue: 1
+nextSplitAttribute: Population
+mse: 1691.6679750950154
+samples: 2488"]
+	3 -> 13
+	14 [label="
+id: 14
+splitValue: 0
+nextSplitAttribute: AveRooms
+mse: 1691.5206878433005
+samples: 2487"]
+	13 -> 14
+	15 [label="
+id: 15
+splitValue: 0
+nextSplitAttribute: AveBedrms
+mse: 1691.5206878433005
+samples: 2487"]
+	14 -> 15
+	16 [label="
+id: 16
+splitValue: 0
+nextSplitAttribute: AveOccup
+mse: 1691.5206878433005
+samples: 2487"]
+	15 -> 16
+	17 [label="
+id: 17
+splitValue: 0
+mse: 1691.5206878433005
+samples: 2487
+avgValue: 1.727857362283876"]
+	16 -> 17
+	18 [label="
+id: 18
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	16 -> 18
+	19 [label="
+id: 19
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	15 -> 19
+	20 [label="
+id: 20
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	14 -> 20
+	21 [label="
+id: 21
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 1.344"]
+	13 -> 21
+	22 [label="
+id: 22
+splitValue: 1
+nextSplitAttribute: Longitude
+mse: 2616.249654446141
+samples: 3376"]
+	2 -> 22
+	23 [label="
+id: 23
+splitValue: 0
+nextSplitAttribute: AveRooms
+mse: 14.105878432432434
+samples: 37"]
+	22 -> 23
+	24 [label="
+id: 24
+splitValue: 0
+nextSplitAttribute: AveBedrms
+mse: 14.105878432432434
+samples: 37"]
+	23 -> 24
+	25 [label="
+id: 25
+splitValue: 0
+nextSplitAttribute: Population
+mse: 14.105878432432434
+samples: 37"]
+	24 -> 25
+	26 [label="
+id: 26
+splitValue: 0
+nextSplitAttribute: AveOccup
+mse: 14.105878432432434
+samples: 37"]
+	25 -> 26
+	27 [label="
+id: 27
+splitValue: 0
+mse: 14.105878432432434
+samples: 37
+avgValue: 1.7013513513513512"]
+	26 -> 27
+	28 [label="
+id: 28
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	26 -> 28
+	29 [label="
+id: 29
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	25 -> 29
+	30 [label="
+id: 30
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	24 -> 30
+	31 [label="
+id: 31
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	23 -> 31
+	32 [label="
+id: 32
+splitValue: 1
+nextSplitAttribute: AveRooms
+mse: 2601.552762850558
+samples: 3339"]
+	22 -> 32
+	33 [label="
+id: 33
+splitValue: 0
+nextSplitAttribute: AveBedrms
+mse: 2601.552762850558
+samples: 3339"]
+	32 -> 33
+	34 [label="
+id: 34
+splitValue: 0
+nextSplitAttribute: Population
+mse: 2601.552762850558
+samples: 3339"]
+	33 -> 34
+	35 [label="
+id: 35
+splitValue: 0
+nextSplitAttribute: AveOccup
+mse: 2601.552762850558
+samples: 3339"]
+	34 -> 35
+	36 [label="
+id: 36
+splitValue: 0
+mse: 2601.552762850558
+samples: 3339
+avgValue: 1.8284353069781374"]
+	35 -> 36
+	37 [label="
+id: 37
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	35 -> 37
+	38 [label="
+id: 38
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	34 -> 38
+	39 [label="
+id: 39
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	33 -> 39
+	40 [label="
+id: 40
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	32 -> 40
+	41 [label="
+id: 41
+splitValue: 1
+nextSplitAttribute: Longitude
+mse: 3954.4035706686095
+samples: 4667"]
+	1 -> 41
+	42 [label="
+id: 42
+splitValue: 0
+nextSplitAttribute: HouseAge
+mse: 3548.6496517689557
+samples: 4112"]
+	41 -> 42
+	43 [label="
+id: 43
+splitValue: 0
+nextSplitAttribute: Population
+mse: 1117.1042284121977
+samples: 1951"]
+	42 -> 43
+	44 [label="
+id: 44
+splitValue: 0
+nextSplitAttribute: AveRooms
+mse: 1117.011324534748
+samples: 1950"]
+	43 -> 44
+	45 [label="
+id: 45
+splitValue: 0
+nextSplitAttribute: AveBedrms
+mse: 1117.011324534748
+samples: 1950"]
+	44 -> 45
+	46 [label="
+id: 46
+splitValue: 0
+nextSplitAttribute: AveOccup
+mse: 1117.011324534748
+samples: 1950"]
+	45 -> 46
+	47 [label="
+id: 47
+splitValue: 0
+mse: 1117.011324534748
+samples: 1950
+avgValue: 1.492879517948718"]
+	46 -> 47
+	48 [label="
+id: 48
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	46 -> 48
+	49 [label="
+id: 49
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	45 -> 49
+	50 [label="
+id: 50
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	44 -> 50
+	51 [label="
+id: 51
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 1.188"]
+	43 -> 51
+	52 [label="
+id: 52
+splitValue: 1
+nextSplitAttribute: AveRooms
+mse: 2333.2009155407304
+samples: 2161"]
+	42 -> 52
+	53 [label="
+id: 53
+splitValue: 0
+nextSplitAttribute: AveBedrms
+mse: 2333.1694208474587
+samples: 2160"]
+	52 -> 53
+	54 [label="
+id: 54
+splitValue: 0
+nextSplitAttribute: Population
+mse: 2333.1694208474587
+samples: 2160"]
+	53 -> 54
+	55 [label="
+id: 55
+splitValue: 0
+nextSplitAttribute: AveOccup
+mse: 2333.1694208474587
+samples: 2160"]
+	54 -> 55
+	56 [label="
+id: 56
+splitValue: 0
+mse: 2333.1694208474587
+samples: 2160
+avgValue: 1.8025085185185186"]
+	55 -> 56
+	57 [label="
+id: 57
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	55 -> 57
+	58 [label="
+id: 58
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	54 -> 58
+	59 [label="
+id: 59
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	53 -> 59
+	60 [label="
+id: 60
+splitValue: 1
+mse: 0.0
+samples: 1
+avgValue: 1.625"]
+	52 -> 60
+	61 [label="
+id: 61
+splitValue: 1
+nextSplitAttribute: HouseAge
+mse: 53.123905839451076
+samples: 555"]
+	41 -> 61
+	62 [label="
+id: 62
+splitValue: 0
+nextSplitAttribute: AveRooms
+mse: 38.52777580676635
+samples: 342"]
+	61 -> 62
+	63 [label="
+id: 63
+splitValue: 0
+nextSplitAttribute: AveBedrms
+mse: 38.52777580676635
+samples: 342"]
+	62 -> 63
+	64 [label="
+id: 64
+splitValue: 0
+nextSplitAttribute: Population
+mse: 38.52777580676635
+samples: 342"]
+	63 -> 64
+	65 [label="
+id: 65
+splitValue: 0
+nextSplitAttribute: AveOccup
+mse: 38.52777580676635
+samples: 342"]
+	64 -> 65
+	66 [label="
+id: 66
+splitValue: 0
+mse: 38.52777580676635
+samples: 342
+avgValue: 0.8719122514619883"]
+	65 -> 66
+	67 [label="
+id: 67
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	65 -> 67
+	68 [label="
+id: 68
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	64 -> 68
+	69 [label="
+id: 69
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	63 -> 69
+	70 [label="
+id: 70
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	62 -> 70
+	71 [label="
+id: 71
+splitValue: 1
+nextSplitAttribute: AveRooms
+mse: 10.758907943661978
+samples: 213"]
+	61 -> 71
+	72 [label="
+id: 72
+splitValue: 0
+nextSplitAttribute: AveBedrms
+mse: 10.758907943661978
+samples: 213"]
+	71 -> 72
+	73 [label="
+id: 73
+splitValue: 0
+nextSplitAttribute: Population
+mse: 10.758907943661978
+samples: 213"]
+	72 -> 73
+	74 [label="
+id: 74
+splitValue: 0
+nextSplitAttribute: AveOccup
+mse: 10.758907943661978
+samples: 213"]
+	73 -> 74
+	75 [label="
+id: 75
+splitValue: 0
+mse: 10.758907943661978
+samples: 213
+avgValue: 0.7009295774647888"]
+	74 -> 75
+	76 [label="
+id: 76
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	74 -> 76
+	77 [label="
+id: 77
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	73 -> 77
+	78 [label="
+id: 78
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	72 -> 78
+	79 [label="
+id: 79
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	71 -> 79
+	80 [label="
+id: 80
+splitValue: 1
+nextSplitAttribute: HouseAge
+mse: 4788.919686408448
+samples: 3795"]
+	0 -> 80
+	81 [label="
+id: 81
+splitValue: 0
+nextSplitAttribute: Latitude
+mse: 2412.919853138252
+samples: 2254"]
+	80 -> 81
+	82 [label="
+id: 82
+splitValue: 0
+nextSplitAttribute: Longitude
+mse: 1459.2321884369571
+samples: 1380"]
+	81 -> 82
+	83 [label="
+id: 83
+splitValue: 0
+nextSplitAttribute: AveRooms
+mse: 23.151144776870964
+samples: 31"]
+	82 -> 83
+	84 [label="
+id: 84
+splitValue: 0
+nextSplitAttribute: AveBedrms
+mse: 23.151144776870964
+samples: 31"]
+	83 -> 84
+	85 [label="
+id: 85
+splitValue: 0
+nextSplitAttribute: Population
+mse: 23.151144776870964
+samples: 31"]
+	84 -> 85
+	86 [label="
+id: 86
+splitValue: 0
+nextSplitAttribute: AveOccup
+mse: 23.151144776870964
+samples: 31"]
+	85 -> 86
+	87 [label="
+id: 87
+splitValue: 0
+mse: 23.151144776870964
+samples: 31
+avgValue: 2.770839032258065"]
+	86 -> 87
+	88 [label="
+id: 88
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	86 -> 88
+	89 [label="
+id: 89
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	85 -> 89
+	90 [label="
+id: 90
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	84 -> 90
+	91 [label="
+id: 91
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	83 -> 91
+	92 [label="
+id: 92
+splitValue: 1
+nextSplitAttribute: AveRooms
+mse: 1435.0730796867197
+samples: 1349"]
+	82 -> 92
+	93 [label="
+id: 93
+splitValue: 0
+nextSplitAttribute: AveBedrms
+mse: 1435.0730796867197
+samples: 1349"]
+	92 -> 93
+	94 [label="
+id: 94
+splitValue: 0
+nextSplitAttribute: Population
+mse: 1435.0730796867197
+samples: 1349"]
+	93 -> 94
+	95 [label="
+id: 95
+splitValue: 0
+nextSplitAttribute: AveOccup
+mse: 1435.0730796867197
+samples: 1349"]
+	94 -> 95
+	96 [label="
+id: 96
+splitValue: 0
+mse: 1435.0730796867197
+samples: 1349
+avgValue: 2.9532181986656783"]
+	95 -> 96
+	97 [label="
+id: 97
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	95 -> 97
+	98 [label="
+id: 98
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	94 -> 98
+	99 [label="
+id: 99
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	93 -> 99
+	100 [label="
+id: 100
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	92 -> 100
+	101 [label="
+id: 101
+splitValue: 1
+nextSplitAttribute: Longitude
+mse: 944.9627709645769
+samples: 874"]
+	81 -> 101
+	102 [label="
+id: 102
+splitValue: 0
+nextSplitAttribute: AveRooms
+mse: 846.4452861864354
+samples: 830"]
+	101 -> 102
+	103 [label="
+id: 103
+splitValue: 0
+nextSplitAttribute: AveBedrms
+mse: 846.4452861864354
+samples: 830"]
+	102 -> 103
+	104 [label="
+id: 104
+splitValue: 0
+nextSplitAttribute: Population
+mse: 846.4452861864354
+samples: 830"]
+	103 -> 104
+	105 [label="
+id: 105
+splitValue: 0
+nextSplitAttribute: AveOccup
+mse: 846.4452861864354
+samples: 830"]
+	104 -> 105
+	106 [label="
+id: 106
+splitValue: 0
+mse: 846.4452861864354
+samples: 830
+avgValue: 2.8946140722891562"]
+	105 -> 106
+	107 [label="
+id: 107
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	105 -> 107
+	108 [label="
+id: 108
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	104 -> 108
+	109 [label="
+id: 109
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	103 -> 109
+	110 [label="
+id: 110
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	102 -> 110
+	111 [label="
+id: 111
+splitValue: 1
+nextSplitAttribute: AveRooms
+mse: 10.215209636363639
+samples: 44"]
+	101 -> 111
+	112 [label="
+id: 112
+splitValue: 0
+nextSplitAttribute: AveBedrms
+mse: 10.215209636363639
+samples: 44"]
+	111 -> 112
+	113 [label="
+id: 113
+splitValue: 0
+nextSplitAttribute: Population
+mse: 10.215209636363639
+samples: 44"]
+	112 -> 113
+	114 [label="
+id: 114
+splitValue: 0
+nextSplitAttribute: AveOccup
+mse: 10.215209636363639
+samples: 44"]
+	113 -> 114
+	115 [label="
+id: 115
+splitValue: 0
+mse: 10.215209636363639
+samples: 44
+avgValue: 1.4409090909090911"]
+	114 -> 115
+	116 [label="
+id: 116
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	114 -> 116
+	117 [label="
+id: 117
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	113 -> 117
+	118 [label="
+id: 118
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	112 -> 118
+	119 [label="
+id: 119
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	111 -> 119
+	120 [label="
+id: 120
+splitValue: 1
+nextSplitAttribute: Longitude
+mse: 2046.4274989932958
+samples: 1541"]
+	80 -> 120
+	121 [label="
+id: 121
+splitValue: 0
+nextSplitAttribute: Latitude
+mse: 734.8062885778646
+samples: 626"]
+	120 -> 121
+	122 [label="
+id: 122
+splitValue: 0
+nextSplitAttribute: AveRooms
+mse: 0.5588006666666667
+samples: 3"]
+	121 -> 122
+	123 [label="
+id: 123
+splitValue: 0
+nextSplitAttribute: AveBedrms
+mse: 0.5588006666666667
+samples: 3"]
+	122 -> 123
+	124 [label="
+id: 124
+splitValue: 0
+nextSplitAttribute: Population
+mse: 0.5588006666666667
+samples: 3"]
+	123 -> 124
+	125 [label="
+id: 125
+splitValue: 0
+nextSplitAttribute: AveOccup
+mse: 0.5588006666666667
+samples: 3"]
+	124 -> 125
+	126 [label="
+id: 126
+splitValue: 0
+mse: 0.5588006666666667
+samples: 3
+avgValue: 1.8896666666666668"]
+	125 -> 126
+	127 [label="
+id: 127
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	125 -> 127
+	128 [label="
+id: 128
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	124 -> 128
+	129 [label="
+id: 129
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	123 -> 129
+	130 [label="
+id: 130
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	122 -> 130
+	131 [label="
+id: 131
+splitValue: 1
+nextSplitAttribute: AveRooms
+mse: 725.8860973617714
+samples: 623"]
+	121 -> 131
+	132 [label="
+id: 132
+splitValue: 0
+nextSplitAttribute: AveBedrms
+mse: 725.8860973617714
+samples: 623"]
+	131 -> 132
+	133 [label="
+id: 133
+splitValue: 0
+nextSplitAttribute: Population
+mse: 725.8860973617714
+samples: 623"]
+	132 -> 133
+	134 [label="
+id: 134
+splitValue: 0
+nextSplitAttribute: AveOccup
+mse: 725.8860973617714
+samples: 623"]
+	133 -> 134
+	135 [label="
+id: 135
+splitValue: 0
+mse: 725.8860973617714
+samples: 623
+avgValue: 3.563151460674157"]
+	134 -> 135
+	136 [label="
+id: 136
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	134 -> 136
+	137 [label="
+id: 137
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	133 -> 137
+	138 [label="
+id: 138
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	132 -> 138
+	139 [label="
+id: 139
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	131 -> 139
+	140 [label="
+id: 140
+splitValue: 1
+nextSplitAttribute: Latitude
+mse: 1308.3794018636515
+samples: 915"]
+	120 -> 140
+	141 [label="
+id: 141
+splitValue: 0
+nextSplitAttribute: AveRooms
+mse: 1290.8322957935102
+samples: 910"]
+	140 -> 141
+	142 [label="
+id: 142
+splitValue: 0
+nextSplitAttribute: AveBedrms
+mse: 1290.8322957935102
+samples: 910"]
+	141 -> 142
+	143 [label="
+id: 143
+splitValue: 0
+nextSplitAttribute: Population
+mse: 1290.8322957935102
+samples: 910"]
+	142 -> 143
+	144 [label="
+id: 144
+splitValue: 0
+nextSplitAttribute: AveOccup
+mse: 1290.8322957935102
+samples: 910"]
+	143 -> 144
+	145 [label="
+id: 145
+splitValue: 0
+mse: 1290.8322957935102
+samples: 910
+avgValue: 3.4719913626373624"]
+	144 -> 145
+	146 [label="
+id: 146
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	144 -> 146
+	147 [label="
+id: 147
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	143 -> 147
+	148 [label="
+id: 148
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	142 -> 148
+	149 [label="
+id: 149
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	141 -> 149
+	150 [label="
+id: 150
+splitValue: 1
+nextSplitAttribute: AveRooms
+mse: 0.054007200000000005
+samples: 5"]
+	140 -> 150
+	151 [label="
+id: 151
+splitValue: 0
+nextSplitAttribute: AveBedrms
+mse: 0.054007200000000005
+samples: 5"]
+	150 -> 151
+	152 [label="
+id: 152
+splitValue: 0
+nextSplitAttribute: Population
+mse: 0.054007200000000005
+samples: 5"]
+	151 -> 152
+	153 [label="
+id: 153
+splitValue: 0
+nextSplitAttribute: AveOccup
+mse: 0.054007200000000005
+samples: 5"]
+	152 -> 153
+	154 [label="
+id: 154
+splitValue: 0
+mse: 0.054007200000000005
+samples: 5
+avgValue: 1.5964"]
+	153 -> 154
+	155 [label="
+id: 155
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	153 -> 155
+	156 [label="
+id: 156
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	152 -> 156
+	157 [label="
+id: 157
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	151 -> 157
+	158 [label="
+id: 158
+splitValue: 1
+samples: 0
+avgValue: 0"]
+	150 -> 158
+}
